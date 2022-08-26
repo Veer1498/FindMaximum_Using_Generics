@@ -10,6 +10,8 @@ public class FindMaxMain {
 		findMax.getMaxInteger(10, 5, 35);
 		System.out.println("\nFLOAT");
 		findMax.getMaxFloat(1.2f, 2.2f, 1.1f);
+		System.out.println("\nSTRINGS");
+		findMax.getMaxString("apple", "banana", "mango");
 	}
 
 }
