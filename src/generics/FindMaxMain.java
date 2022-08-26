@@ -7,11 +7,11 @@ public class FindMaxMain {
 		FindMaximum findMax = new FindMaximum();
 		findMax.welcome();
 		System.out.println("\nINTEGERS");
-		findMax.getMaxInteger(10, 5, 35);
+		findMax.getMax(10, 5, 35);
 		System.out.println("\nFLOAT");
-		findMax.getMaxFloat(1.2f, 2.2f, 1.1f);
+		findMax.getMax(1.2f, 2.2f, 1.1f);
 		System.out.println("\nSTRINGS");
-		findMax.getMaxString("apple", "banana", "mango");
+		findMax.getMax("apple", "banana", "mango");
 	}
 
 }
