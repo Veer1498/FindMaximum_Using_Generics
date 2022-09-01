@@ -1,7 +1,16 @@
 package generics;
-
+/**
+ * Finding maximum Values Using Generics
+ * @author Veer.Singa
+ *
+ */
 public class FindMaxMain {
-
+/**
+ * Created FindMax Object.
+ * Calling Methods Required.
+ * 
+ * @param args
+ */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FindMaximum findMax = new FindMaximum();
